@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="top"></div>
+    <main>
+        <section>
+            <div class="container">
+                <ul class="list" id="job-list">
+                    <template id="job-list-template">
+                        <li class="job-list__item">
+                            <img class="job-list__image" src="https://placehold.co/88x88" alt="">
+                            <div class="job-list__info">
+                                <div class="job-list__container">
+                                    <div class="job-list__status">
+                                        <p class="job-list__status__company">Photosnap</p>
+                                        <p class="job-list__status__new">New</p>
+                                        <p class="job-list__status__featured">Featured</p>
+                                    </div>
+                                    <h2 class="job-list__position">Senior Frontend Developer</h2>
+                                    <div class="job-list__about">
+                                        <span class="job-list__posted">1d ago</span>
+                                        <span class="job-list__contract">Full Time</span>
+                                        <span class="job-list__location">USA only</span>
+                                    </div>
+                                </div>
+                                <div class="job-list__filter" id="job-list__filter">
+                                    <template id="filter-template">
+                                        <span class="job-list__filter__item">aa</span>
+                                    </template>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
